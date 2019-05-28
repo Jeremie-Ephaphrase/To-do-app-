@@ -10,7 +10,7 @@ CREATE TABLE `members` (
   `id` int(11) NOT NULL,
   `task` varchar(30) NOT NULL,
   `discription` varchar(30) NOT NULL,
-  `date` text NOT NULL
+  `date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 

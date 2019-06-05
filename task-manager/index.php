@@ -8,7 +8,7 @@
 	$crud = new Crud();
 
 	//fetch data
-	$sql = "SELECT * FROM members";
+	$sql = "SELECT * FROM members ORDER BY task ASC";
 	$result = $crud->read($sql);
 ?>
 <!DOCTYPE html>
